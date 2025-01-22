@@ -1,0 +1,104 @@
+/* ParentComponent.css */
+.appointments-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    width: calc(100% + 30px);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* AppointmentCard.css */
+  .appointment-card {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .appointment-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+  }
+  
+  .appointment-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .appointment-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .client-name {
+    font-size: 1.25rem;
+    color: #2c3e50;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .appointment-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .detail-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .icon {
+    font-size: 1.2rem;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cost {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  /* Responsive Design */
+  @media screen and (min-width: 576px) {
+    .appointment-card {
+      width: calc(100% / 2);
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .appointment-card {
+      width: calc(100% / 3);
+    }
+  }
+  
+  /* For smaller screens */
+  @media screen and (max-width: 575px) {
+    .appointment-container {
+      padding: 15px;
+    }
+  
+    .client-name {
+      font-size: 1.1rem;
+    }
+  
+    .detail-item {
+      font-size: 0.9rem;
+    }
+  
+    .icon {
+      font-size: 1rem;
+    }
+  }
+  
+  

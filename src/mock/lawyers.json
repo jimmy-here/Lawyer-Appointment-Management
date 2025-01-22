@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "specialty": "Divorce Lawyer",
+      "availability": ["10:00 AM", "10:30 AM", "11:00 AM"],
+      "costPerAppointment": 50
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "specialty": "Criminal Lawyer",
+      "availability": ["12:00 PM", "12:30 PM", "1:00 PM"],
+      "costPerAppointment": 75
+    },
+    {
+      "id": 3,
+      "name": "Aman Motghare",
+      "specialty": "Engineer",
+      "availability": ["12:00 PM", "12:50 PM", "1:00 PM"],
+      "costPerAppointment": 320
+    },
+    {
+      "id": 4,
+      "name": "Aniket Singh",
+      "specialty": "Vishal Lawyer",
+      "availability": ["1:00 PM", "1:50 PM", "1:00 PM"],
+      "costPerAppointment": 412
+    },
+    {
+      "id": 5,
+      "name": "Rishab Jawade",
+      "specialty": "Aniket Lawyer",
+      "availability": ["1:00 PM", "1:50 PM", "1:00 PM"],
+      "costPerAppointment": 400
+    },
+    {
+      "id": 6,
+      "name": "Data Kumar",
+      "specialty": "Rishab Lawyer",
+      "availability": ["1:00 PM", "1:50 PM", "1:00 PM"],
+      "costPerAppointment": 500
+    }
+  ]
+  
